@@ -20,8 +20,6 @@ stopBtn.addEventListener("click", () => {
 const StartBtn = () => {
     startBtn.classList.add("active");
     startBtn.disabled = true;
-    stopBtn.classList.remove("active");
-    resetBtn.classList.remove("active");
 
     startTimer = setInterval(() => {
         ms++;
@@ -64,8 +62,6 @@ const Reset = () => {
 
 const Stop = () => {
     startBtn.classList.remove("active");
-    stopBtn.classList.add("active");
-    resetBtn.classList.remove("active");
     clearInterval(startTimer);
     startBtn.disabled = false;
 };
