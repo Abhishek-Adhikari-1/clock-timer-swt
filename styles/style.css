@@ -21,12 +21,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1f509a;
+    background: #f6f7c4;
 }
 
 .container {
-    /* background-color: red; */
-    /* border: 2px solid blueviolet; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,8 +37,8 @@ body {
     background-color: rgb(255, 255, 255);
     font-size: 50px;
     border-radius: 6px;
-    box-shadow: 0 0 5px 2px #1f619a, 0 0 15px 10px #1f619a,
-        0 0 35px 15px #1f619a, 0 0 50px 25px #1f619a;
+    box-shadow: 0 0 5px 2px #a1eebd, 0 0 15px 10px #a1eebd,
+        0 0 35px 15px #a1eebd, 0 0 50px 25px #a1eebd;
 }
 
 .time span.ms-colon,
@@ -70,6 +68,6 @@ body {
 }
 
 .buttons > button.active {
-    background-color: #e8e8e8;
+    /* background-color: #7BD3EA; */
     cursor: default;
 }
