@@ -28,6 +28,7 @@ const StartBtn = () => {
             sec++;
             sec = sec < 10 ? "0" + sec : sec;
             ms = "0" + 0;
+            // /sadasdasd
         }
         if (sec == 60) {
             min++;
